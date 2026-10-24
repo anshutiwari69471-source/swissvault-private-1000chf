@@ -1,16 +1,9 @@
-# SwissVault FINMA-2026-9E38A84 APPROVED
+# SwissVault Rust - Educational Demo
 
-![FINMA](https://img.shields.io/badge/FINMA-1000%20APPROVED-success)
-![KYC](https://img.shields.io/badge/KYC-ACTIVE%20Risk%2010-blue)
-![FUNC](https://img.shields.io/badge/FUNC-14%20LIVE-orange)
-![Rust](https://img.shields.io/badge/Rust-Axum-red)
+This is an educational Rust project. Not a real bank.
 
-> SwissVault HIGH LEVEL 14 FUNC v2.0.0-FINMA-2026 LIVE
+### Demo
+cargo run
 
-## LIVE APIs
-- `/api/kyc/status` - ACTIVE
-- `/api/tasks`
-- `/api/travel-rule/verify`
-- `/api/travel-rule/audit`
-
-Built in Termux on Android.
+### For Education Only
+Not FINMA licensed. Just for learning Rust.
