@@ -15,8 +15,7 @@ async fn main() {
         .route("/api/travel-rule/audit", get(routes::travel_rule::generate_audit_log))
         .route("/api/license/verify", get(routes::license::verify_license))
         .route("/api/demo/report", get(routes::demo::demo_report))
-       .route("/api/demo/report",
-get(routes::audit::export_audit));
+               
     println!("SwissVault Educational Demo LIVE on 0.0.0.0:3000 - For Learning Only"); 
     let listener = tokio::net::TcpListener::bind("0.0.0.0:3000").await.unwrap();
     axum::serve(listener, app).await.unwrap();
